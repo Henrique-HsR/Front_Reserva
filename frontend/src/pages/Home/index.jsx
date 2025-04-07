@@ -47,7 +47,10 @@ function Home() {
         <input placeholder="Nome" name="name" type="text" ref={inputName} />
         <input placeholder="Rua" name="street" type="text" ref={inputStreet} />
         <input placeholder="Casa" name="house" type="number" ref={inputHouse} />
-        <input placeholder="Status" name="status" type="text" ref={inputStatus} />
+        <select name="status" id="status" ref={inputStatus}>
+          <option value="Proprietario">Proprietário</option>
+          <option value="Morador">Morador</option>
+        </select>
         <button type="button"onClick={createMoradores}>Cadastrar</button>
       </form>
 
