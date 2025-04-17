@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .container {
   display: flex;
   align-items: center;
@@ -83,4 +84,5 @@ form {
   & button:hover {
     opacity: 0.9;
   }
+}
 }

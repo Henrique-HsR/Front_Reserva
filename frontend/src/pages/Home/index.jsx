@@ -65,7 +65,10 @@ function Home() {
           <button onClick={() => deleteMoradores(morador.id)}>
             <img src={Trash} alt="apagar" />
           </button>
+
+          <h2 className="text-red">Teste de tailwind</h2>
         </div>
+        
       ))}
 
     </div>
